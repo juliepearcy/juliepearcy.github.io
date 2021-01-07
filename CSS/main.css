@@ -12,7 +12,7 @@ footer {
 }
 
 header,
-feComponentTransfer {
+footer {
     background-color: teal;
     color: whitesmoke text-align center;
 
@@ -26,4 +26,6 @@ img {
     float: right;
     margin: 10px;
     border: 1px solid orange;
+    border-radius: 30px;
+
 }
