@@ -10,17 +10,18 @@ main,
 footer {
     margin: 1.25rem auto;
     max-width: 800px;
-    
+
 }
 
 header,
 footer {
     background-color: teal;
     color: white;
-    text-align center;
+    text-align: center;
     border-radius: 30px;
-  
+
 }
+
 footer {
     text-align: center;
 }
