@@ -21,6 +21,16 @@ footer {
 
 }
 
+h1 {
+    font-family: 'Fugaz One', cursive;
+ 
+}
+
+p {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
 footer {
     text-align: center;
 }
