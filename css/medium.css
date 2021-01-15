@@ -1,7 +1,20 @@
 @media only screen and (min-width: 32.5em) {
-    img {
-        float: right;
-      
-    
+
+
+    #profilepic {
+
+
+        border: 5px solid orange;
+        border-radius: 20px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin: .15rem;
+    }
+
+    h2 {
+        font-size: 1.5;
+        margin: .25rem;
     }
 }
