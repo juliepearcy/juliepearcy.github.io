@@ -11,14 +11,12 @@ main,
 footer {
     margin: 1.25rem auto;
     max-width: 800px;
-
 }
 
 header {
     background-color: teal;
     color: white;
     border-radius: 30px;
-
 }
 
 footer {
@@ -30,7 +28,7 @@ footer {
     padding: 15px;
     font-size: 16px;
     word-spacing: 7px;
-      }
+}
 
 
 h1,
@@ -38,13 +36,10 @@ h2,
 h3,
 h4 {
     font-family: 'Oleo Script', cursive;
-
-
 }
 
 h1 {
-    font-size: 2.2rem;
-
+    font-size: 2.0rem;
 }
 
 h2 {
@@ -66,7 +61,7 @@ header {
 }
 
 #profilepic {
-    
-
     border: 2px solid orange;
+    margin-top: 15px;
+    z-index: 100;
 }
