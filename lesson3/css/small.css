@@ -3,13 +3,13 @@ body {
     font-size: 14px;
     line-height: 1.4;
     font-weight: 400;
-    max-width: width 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 header,
 footer {
-     
+
     background-color: #cc3f0c;
     color: #d8cbc7;
     text-align: center;
@@ -19,7 +19,7 @@ footer {
 
 }
 
-main{
+main {
     padding: 15px;
 }
 
@@ -37,6 +37,7 @@ nav ul {
     overflow: hidden;
 
 }
+
 
 nav li a {
     display: block;
@@ -60,7 +61,7 @@ h3 {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
 }
 
