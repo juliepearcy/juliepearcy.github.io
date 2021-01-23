@@ -10,12 +10,12 @@ body {
 header,
 footer {
 
-    background-color: #cc3f0c;
+    background-color: #5f021f;
     color: #d8cbc7;
     text-align: center;
     height: auto;
     padding: 25px;
-    font-size: 20px;
+    font-size: 22px;
 
 }
 
@@ -41,7 +41,7 @@ nav ul {
 
 nav li a {
     display: block;
-    color: #19231a;
+    color: #2e3532;
     text-align: center;
     padding: 0.75rem;
     text-decoration: none;
@@ -50,8 +50,8 @@ nav li a {
 }
 
 nav a:hover {
-    background-color: #9a6d38;
-    color: #19231a;
+    background-color: #33673b;
+    color: #d8cbc7;
 
 }
 
@@ -76,6 +76,11 @@ h3 {
     font-weight: bold;
 }
 
+.coolors {
+    padding: 0;
+    margin-left: -15px;
+}
+
 .colors {
     width: 100%;
     min-width: 350px;
@@ -84,106 +89,3 @@ h3 {
     margin-bottom: 5rem;
 }
 
-.colors th {
-    background-color: #d8cbc7;
-    padding: 1rem;
-}
-
-.colors td {
-    width: 20%;
-    height: 15em;
-}
-
-.primary {
-    background-color: #cc3f0c;
-    color: #d8cbc7;
-
-}
-
-.secondary {
-    background-color: #19231a;
-    color: #d8cbc7;
-}
-
-.accent1 {
-    background-color: #9a6d38;
-}
-
-.accent2 {
-    background-color: #d8cbc7;
-}
-
-.accent3 {
-    background-color: #33673b;
-    color: #d8cbc7;
-}
-
-.primary-accent2-size16 {
-    background-color: #cc3f0c;
-    color: #d8cbc7;
-    font-size: 32px;
-    font-family: Lobster;
-
-}
-
-.accent2-black-size14 {
-    background-color: #c8cbc7;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.accent2-black-size14-400 {
-    background-color: #c8cbc7;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 400;
-
-}
-
-.primary-accent2-size32-bold {
-    background-color: #cc3f0c;
-    color: #d8cbc7;
-    font-weight: 600;
-    font-size: 32px;
-    font-family: Lobster;
-
-}
-
-.back-on-white-24 {
-    background-color: #ffffff;
-    color: #000000;
-    font-size: 24px;
-
-}
-
-.back-on-white-20 {
-    background-color: #ffffff;
-    color: #000000;
-    font-size: 20px;
-    font-family: Lobster;
-
-}
-
-.back-on-white-14 {
-    background-color: #ffffff;
-    color: #000000;
-    font-size: 14px;
-
-}
-
-.typography-chart {
-
-    border-collapse: collapse;
-    margin: 75px;
-
-}
-
-
-table,
-th,
-td {
-    border: 1px solid #000;
-    padding: 12px;
-    width: 100%;
-}
