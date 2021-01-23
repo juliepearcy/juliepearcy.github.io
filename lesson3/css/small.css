@@ -15,7 +15,7 @@ footer {
     text-align: center;
     height: auto;
     padding: 25px;
-    font-size: 16px;
+    font-size: 20px;
 
 }
 
@@ -96,6 +96,8 @@ h3 {
 
 .primary {
     background-color: #cc3f0c;
+    color:  #d8cbc7;
+    
 }
 
 .secondary {
@@ -113,6 +115,7 @@ h3 {
 
 .accent3 {
     background-color: #33673b;
+    color:  #d8cbc7;
 }
 
 .primary-accent2-size16 {
