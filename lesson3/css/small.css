@@ -141,7 +141,7 @@ h3 {
 .primary-accent2-size32-bold {
     background-color: #cc3f0c;
     color: #d8cbc7;
-    font-style: bold;
+    font-weight: 600;
     font-size: 32px;
     font-family: Lobster;
 
