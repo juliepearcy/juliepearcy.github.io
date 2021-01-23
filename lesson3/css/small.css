@@ -75,3 +75,112 @@ h3 {
     font-size: 20px;
     font-weight: bold;
 }
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.colors th {
+    background-color: #d8cbc7;
+    padding: 1rem;
+}
+
+.colors td {
+    width: 20%;
+    height: 15em;
+}
+
+.primary {
+    background-color: #cc3f0c;
+}
+
+.secondary {
+    background-color: #19231a;
+    color: #d8cbc7;
+}
+
+.accent1 {
+    background-color: #9a6d38;
+}
+
+.accent2 {
+    background-color: #d8cbc7;
+}
+
+.accent3 {
+    background-color: #33673b;
+}
+
+.primary-accent2-size16 {
+    background-color: #cc3f0c;
+    color: #d8cbc7;
+    font-size: 32px;
+    font-family: Lobster;
+
+}
+
+.accent2-black-size14 {
+    background-color: #c8cbc7;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.accent2-black-size14-400 {
+    background-color: #c8cbc7;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.primary-accent2-size32-bold {
+    background-color: #cc3f0c;
+    color: #d8cbc7;
+    font-style: bold;
+    font-size: 32px;
+    font-family: Lobster;
+
+}
+
+.back-on-white-24 {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 24px;
+
+}
+
+.back-on-white-20 {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    font-family: Lobster;
+
+}
+
+.back-on-white-14 {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px;
+
+}
+
+.typography-chart {
+
+    border-collapse: collapse;
+    margin: 75px;
+
+}
+
+
+table,
+th,
+td {
+    border: 1px solid #000;
+    padding: 12px;
+
+}
