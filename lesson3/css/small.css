@@ -96,8 +96,8 @@ h3 {
 
 .primary {
     background-color: #cc3f0c;
-    color:  #d8cbc7;
-    
+    color: #d8cbc7;
+
 }
 
 .secondary {
@@ -115,7 +115,7 @@ h3 {
 
 .accent3 {
     background-color: #33673b;
-    color:  #d8cbc7;
+    color: #d8cbc7;
 }
 
 .primary-accent2-size16 {
@@ -185,5 +185,5 @@ th,
 td {
     border: 1px solid #000;
     padding: 12px;
-
+    width: 100%;
 }
