@@ -90,3 +90,14 @@ h3 {
     margin-bottom: 5rem;
 }
 
+.lobster {
+    font-family: Lobster;
+}
+.lighter {
+    font-weight: 300;
+}
+
+.heavier {
+    font-weight: 600;
+}
+
