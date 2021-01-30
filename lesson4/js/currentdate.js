@@ -7,4 +7,8 @@ let month = ["January", "February", "March", "April", "May", "June", "July", "Au
 document.getElementById("dateDisplay").innerHTML = day[x.getDay()] + ", " + 
 x.getDate() + " " + month[x.getMonth()] + " " + x.getFullYear();
 
+
+function smallMenu() {
+    document.getElementById("mainnav").classList.toggle("disappear");
+}
        
