@@ -14,18 +14,23 @@
     <link rel="stylesheet" href="css/large.css">
 </head>
 
-<body>
+
+  
     <header>
-        <section>
-            <img src="/lesson4/images/southeastidahoradarLogo.png">
-        <h1>Southeaster Idaho Radar</h1>
-        </section>
+       
+            <img src="images/southeastidahoradarlogo63x125transparent.png">
+            <section class="header">
+        <h1>Southeastern Idaho Radar</h1>
+     
     <div class="motto">The more you know, the better prepared you are.</div>
+</section>
+<button onclick="smallmenu()">&#9776;</button>
 
 
     </header>
     <nav>
-        <ul>
+        <ul class="smallmenu">
+            <ul id="mainnav" class="disappear">
             <li><a href="#">Home</a></li>
             <li><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -38,23 +43,27 @@
     </nav>
     <main>
         <h2>Preston</h2>
-        <div>Hero Image</div>
-        <div>10-Day Forecast</div>
-        <div>Article</div>
+        <div class="placeholder">Hero Image/Weather Summary</div>
+        <div class="placeholder">10-Day Forecast</div>
+        <div class="placeholder">Article</div>
+        <div class="placeholder">Contact Information</div>
 
     </main>
     <footer>
 
         <p>
-            &copy;
-            <span id="currentyeardisplay"></span> | Julie Pearcy | California | Last Updated: <span
-                id="lastupdated"></span>
+          
+     &copy;Southeastern Idaho Radar | Julie Pearcy | <span id="dateDisplay"></span>
         </p>
     </footer>
-    <script src="js/lastmodified.js"></script>
-    <script src="js/currentyear.js"></script>
+   
+    <script src="js/currentdate.js"></script>
+
     </body>
     </html>
 
 
+</div>
+</header>
 
+ 

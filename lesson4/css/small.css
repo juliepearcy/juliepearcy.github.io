@@ -7,10 +7,16 @@ body {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header,
 footer {
 
-    background-color: #5f021f;
+    background-color: #33673b;
     color: #d8cbc7;
     text-align: center;
     height: auto;
@@ -35,6 +41,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: block;
 
 }
 
@@ -50,7 +57,7 @@ nav li a {
 }
 
 nav a:hover {
-    background-color: #33673b;
+    background-color: #cc3f0c;
     color: #d8cbc7;
 
 }
@@ -74,4 +81,43 @@ h2 {
 h3 {
     font-size: 20px;
     font-weight: bold;
+}
+
+.header {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.motto {
+    font-style: italic;
+    letter-spacing: .5pt;
+    color: white;
+    margin-top: -25px;
+    margin-left: 20px;
+    font-size: .8rem;
+
+}
+
+
+header img {
+    width: 80px;
+    height: auto;
+    padding-right: 25px;
+}
+
+.placeholder {
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #cc3f0c;
+}
+
+
+nav ul.disappear {
+    display: none;
+}
+
+.smallmenu:after {
+    content: "";
+    clear: both;
 }
