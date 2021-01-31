@@ -1,11 +1,22 @@
-@media only screen and (min-width: 32.5em){
+@media only screen and (min-width: 32.5em) {
 
-.navigation {
-    display: flex;
+    .navigation {
+        display: flex;
+        padding: 0;
 
-}
+    }
 
-li {
-    flex: 1 1 auto;
-}
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .ham {
+        display: none;
+        padding-left: 0;
+    }
 }

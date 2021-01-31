@@ -1,21 +1,20 @@
 
 
-//current year
-const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.navigation')
 
-hambutton.addEventListener('click', () => {const responsive = 'responsive';
-mainnav.classList.toggle(responsive)}, false);
 
-// To solve the mid resizing issue with responsive class on
+function toggleMenu() {
+    document
+    .getElementsByClassName("navigation")[0]
+    .classList.toggle("responsive");
+}
+
+
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
-/*** Programming Notes **************************************
-  Arrow Functions - es6 syntactically compact alternative to a regular function expression
-  see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
-  or https://www.w3schools.com/js/js_arrow_function.asp
-<ul class="navigation">***/
-              
+
+
+
+
 
 
 let x = new Date();

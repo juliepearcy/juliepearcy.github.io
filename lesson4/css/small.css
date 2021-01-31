@@ -5,6 +5,7 @@ body {
     font-weight: 400;
     max-width: 960px;
     margin: 0 auto;
+
 }
 
 header {
@@ -16,7 +17,7 @@ header {
 header,
 footer {
 
-    background-color: #33673b;
+    background-color: #19231a;
     color: #d8cbc7;
     text-align: center;
     height: auto;
@@ -57,10 +58,21 @@ nav li a {
 
 }
 
-nav a:hover {
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #2e3532;
+    padding: .75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
     background-color: #cc3f0c;
     color: #d8cbc7;
-
 }
 
 h1,
@@ -77,6 +89,7 @@ h2 {
     font-family: "Montserrat", Arial, sans-serif;
     font-size: 24px;
     font-weight: bold;
+    padding-left: 15px;
 }
 
 h3 {
@@ -97,9 +110,7 @@ h3 {
     margin-top: -25px;
     margin-left: 20px;
     font-size: .8rem;
-
 }
-
 
 header img {
     width: 80px;
@@ -110,15 +121,13 @@ header img {
 .placeholder {
     padding: 1rem;
     margin: 1rem;
-    border: 2px solid #cc3f0c;
+    border: 3px solid #cc3f0c;
 }
 
-
-nav ul.disappear {
-    display: none;
+.responsive li {
+    display: block;
 }
 
-.smallmenu:after {
-    content: "";
-    clear: both;
+.navigation li:first-child {
+    display: block;
 }
