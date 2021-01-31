@@ -9,6 +9,6 @@ x.getDate() + " " + month[x.getMonth()] + " " + x.getFullYear();
 
 
 function smallMenu() {
-    document.getElementById("mainnav").classList.toggle("disappear");
+    document.getElementById("navigation").classList.toggle("disappear");
 }
        
