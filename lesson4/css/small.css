@@ -23,6 +23,7 @@ header {
     margin-top: -25px;
     margin-left: 20px;
     font-size: .8rem;
+
 }
 
 
@@ -33,8 +34,8 @@ footer {
     color: #d8cbc7;
     text-align: center;
     height: auto;
-    padding: 15px;
-    font-size: 22px;
+    padding: 10px;
+    font-size: 18px;
 
 }
 
@@ -131,4 +132,9 @@ h3 {
     padding-right: 25px;
     height: auto;
 
+}
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
 }

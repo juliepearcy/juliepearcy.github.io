@@ -9,6 +9,10 @@
 
     }
 
+    .header {
+        font-size: 1.2rem;
+    }
+
     .navigation li {
         display: block;
         flex: 1 1 100%;
