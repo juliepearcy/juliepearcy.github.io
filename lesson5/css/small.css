@@ -1,0 +1,198 @@
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    line-height: 32px;
+}
+
+
+.motto {
+    font-style: italic;
+    letter-spacing: .5pt;
+    color: white;
+    margin-top: -25px;
+    margin-left: 20px;
+    font-size: .8rem;
+
+}
+
+
+header,
+footer {
+
+    background-color: #19231a;
+    color: #d8cbc7;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+main {
+    padding: 15px;
+}
+
+nav {
+    font-weight: 600;
+    background-color: #d8cbc7;
+    text-align: center;
+    padding: 0;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+
+}
+
+
+nav li a {
+    display: block;
+    color: #2e3532;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #2e3532;
+    padding: .75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: #cc3f0c;
+    color: #d8cbc7;
+}
+
+h1,
+h3 {
+    font-family: "Lobster", cursive;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+.placeholder {
+    padding: 1rem;
+    margin: 1rem;
+    border: 3px solid #cc3f0c;
+}
+
+.responsive li {
+    display: block;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.logo {
+    width: 80px;
+    padding: 0 0 0 30px;
+    height: auto;
+
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.hero-pic-area {
+    margin: 10px auto;
+    background-color: #d8cbc7;
+    border: 1ps solid #19231a;
+    width: 100%;
+    height: 275px;
+}
+
+.heropic {
+    position: relative;
+    margin: 10px auto;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.summary {
+    background: #d8cbc7;
+    border: 1px solid #19231a;
+    padding: 2rem;
+
+
+}
+
+.five-day-summary {
+    max-width: 100%;
+    background-color: #33673b;
+    border: 3px solid #19231a;
+    padding: 1em 0;
+}
+
+.mainarticle {
+    background-color: #d8cbc7;
+    border: 3px solid #19231a;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.articleimage {
+    margin: 0 auto;
+    padding: 1em;
+    width: 100%;
+}
+
+.footercontact {
+    margin: 1em 0;
+    padding: 1em;
+    text-decoration: none;
+
+
+}

@@ -1,0 +1,29 @@
+@media only screen and (min-width: 38.5em) {
+    .logo {
+        width: 100px;
+    }
+
+    .navigation {
+        display: flex;
+        padding: 0;
+
+    }
+
+    .header {
+        font-size: 1.2rem;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .ham {
+        display: none;
+        padding-left: 0;
+    }
+}
