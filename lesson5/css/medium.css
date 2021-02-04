@@ -22,8 +22,31 @@
         display: none;
     }
 
-    .ham {
-        display: none;
-        padding-left: 0;
+    .summary {
+        position: absolute;
+
+        .ham {
+            display: none;
+            padding-left: 0;
+        }
+
+        .fivedaytitle {
+            margin-left: 15px;
+        }
+
+        .fivedayicons {
+            padding: 1px;
+        }
+
+        .five-day-summary {
+            max-width: 100%;
+            background-color: rgba(204, 63, 12, .80);
+            border: 3px solid #19231a;
+            padding: 1em 0;
+        }
+
+        .five-day-summary figure {
+            display: flex;
+            justify-content: space-evenly;
+        }
     }
-}

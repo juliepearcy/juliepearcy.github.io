@@ -87,10 +87,16 @@ nav li a {
     text-decoration: none;
 }
 
+.navigation a:visited {
+    background-color: #33673b;
+    color: #d8cbc7;
+}
+
 .navigation a:hover {
     background-color: #cc3f0c;
     color: #d8cbc7;
 }
+
 
 h1,
 h3 {
@@ -132,6 +138,8 @@ h3 {
     display: block;
 }
 
+
+
 .logo {
     width: 80px;
     padding: 0 0 0 30px;
@@ -147,45 +155,39 @@ nav button {
 
 .hero-pic-area {
     position: relative;
+    background-color: #19231a;
     margin: 0 auto;
     width: 100%;
     height: 300px;
-    
+
 }
 
 .heropic {
     margin: 10px auto;
     background-color: #d8cbc7;
-    border: 1ps solid #19231a;
     width: 98%;
-    height: 280px;
+    height: 275px;
 }
 
 
 
 .summary {
-    position: absolute;
-    background:radial-gradient(204, 63, 12, .3);
+    background: radial-gradient(204, 63, 12, .3);
     border: 1px solid #19231a;
     top: 50px;
     left: 50px;
     padding: .5rem;
     box-shadow: 0 0 30px grey;
-
-
 }
 
-.five-day-summary {
-    max-width: 100%;
-    background-color:rgba(204,63, 12, .80);
-    border: 3px solid #19231a;
-    padding: 1em 0;
+.fivedaytitle {
+    display: none;
 }
 
-.five-day-summary figure {
-    display: flex;
-    justify-content: space-evenly;
+.fivedayicons {
+    display: none;
 }
+
 
 .main-article {
     background-color: #d8cbc7;
@@ -198,20 +200,23 @@ nav button {
     float: right;
     margin: 0 auto;
     padding: 1em;
-    
+
 }
 
 .footercontact {
-    display: grid 1fr 1fr;
-    margin: 1em 0;
+    display: inline-flex;
+    text-align: right;
+    margin: 0;
     padding: 1em;
-  
+    align-items: stretch;
+
 }
 
 footer ul {
-    grid-column: 2/3;
+    list-style: none;
+
+
 }
 
-.map {
-    grid-column: 1/2;
-}
+
+.map {}
