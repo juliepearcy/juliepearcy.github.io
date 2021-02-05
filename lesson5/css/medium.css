@@ -22,31 +22,56 @@
         display: none;
     }
 
+    body {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 28px;
+
+    }
+
+    h2 {
+
+        font-size: 22px;
+
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
     .summary {
         position: absolute;
-
-        .ham {
-            display: none;
-            padding-left: 0;
-        }
-
-        .fivedaytitle {
-            margin-left: 15px;
-        }
-
-        .fivedayicons {
-            padding: 1px;
-        }
-
-        .five-day-summary {
-            max-width: 100%;
-            background-color: rgba(204, 63, 12, .80);
-            border: 3px solid #19231a;
-            padding: 1em 0;
-        }
-
-        .five-day-summary figure {
-            display: flex;
-            justify-content: space-evenly;
-        }
     }
+
+    .ham {
+        display: none;
+        padding-left: 0;
+    }
+
+    .fivedaytitle {
+        margin-left: 15px;
+        font-size: 13px;
+    }
+
+    .fivedayicons {
+        padding: 1px;
+    }
+
+    .five-day-summary {
+
+        max-width: 100%;
+        background-color: rgba(204, 63, 12, .80);
+        border: 3px solid #19231a;
+        padding: 1em 0;
+    }
+
+    .five-day-summary figure {
+
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .map {}
+}

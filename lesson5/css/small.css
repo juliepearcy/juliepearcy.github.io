@@ -1,6 +1,6 @@
 body {
     font-family: "Montserrat", Arial, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.4;
     font-weight: 400;
     max-width: 960px;
@@ -114,19 +114,19 @@ h3 {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 h2 {
     font-family: "Montserrat", Arial, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     padding-left: 15px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: bold;
     padding-left: 20px;
 }
@@ -182,6 +182,7 @@ nav button {
 
 
 .summary {
+    display:block;
     background: radial-gradient(204, 63, 12, .3);
     border: 1px solid #19231a;
     top: 50px;
@@ -189,13 +190,21 @@ nav button {
     padding: .5rem;
     box-shadow: 0 0 30px grey;
 }
+.five-day-summary {
+
+    max-width: 100%;
+    background-color: rgba(204, 63, 12, .80);
+    border: 3px solid #19231a;
+    padding: 1em 0;
+}
 
 .fivedaytitle {
-    display: none;
+    display: block;
+   
 }
 
 .fivedayicons {
-    display: none;
+    display: block;
 }
 
 
@@ -229,4 +238,6 @@ footer ul {
 }
 
 
-.map {}
+.map {
+    display: none;
+}

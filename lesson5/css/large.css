@@ -27,25 +27,45 @@
         padding-left: 0;
     }
 
-    .summary {
-        position: absolute;
-        background: radial-gradient(204, 63, 12, .3);
-        border: 1px solid #19231a;
-        top: 50px;
-        left: 50px;
-        padding: .5rem;
-        box-shadow: 0 0 30px grey;
+    body {
+        font-size: 14px;
     }
 
-    .fivedaytitle {
-        margin-left: 15px;
+    h1 {
+        font-size: 32px;
+
     }
 
-    .fivedayicons {
-        padding: 1px;
-    }
+    h2 {
 
-    .five-day-summary {
+        font-size: 24px;
+
+        h3 {
+            font-size: 20px;
+        }
+
+
+        .summary {
+            position: absolute;
+            background: radial-gradient(204, 63, 12, .3);
+            border: 1px solid #19231a;
+            top: 50px;
+            left: 50px;
+            padding: .5rem;
+            box-shadow: 0 0 30px grey;
+        }
+
+        .fivedaytitle {
+            margin-left: 15px;
+
+        }
+
+        .fivedayicons {
+            padding: 1px;
+        }
+
+        .five-day-summary {}
+
         max-width: 100%;
         background-color: rgba(204, 63, 12, .80);
         border: 3px solid #19231a;
@@ -55,5 +75,8 @@
     .five-day-summary figure {
         display: flex;
         justify-content: space-evenly;
+
     }
+
+    .map {}
 }
