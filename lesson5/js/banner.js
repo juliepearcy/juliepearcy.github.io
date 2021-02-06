@@ -1,0 +1,1 @@
+document.querySelector('.banner').style.display = "block";

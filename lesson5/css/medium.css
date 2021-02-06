@@ -41,8 +41,15 @@
         font-size: 18px;
     }
 
+    .hero-pic-area {
+        position: relative;
+    }
+
     .summary {
         position: absolute;
+        top: 1.2rem;
+
+
     }
 
     .ham {
@@ -50,28 +57,51 @@
         padding-left: 0;
     }
 
+    .five-day-summary {
+
+        max-width: 100%;
+        background-color: #cc3f03;
+        border: 3px solid #19231a;
+        padding: 1em 0;
+    }
+
+
     .fivedaytitle {
         margin-left: 15px;
         font-size: 13px;
     }
 
     .fivedayicons {
+        display: flex;
+        justify-content: space-around;
         padding: 1px;
     }
 
-    .five-day-summary {
-
-        max-width: 100%;
-        background-color: rgba(204, 63, 12, .80);
-        border: 3px solid #19231a;
-        padding: 1em 0;
-    }
-
-    .five-day-summary figure {
-
+    .temp {
         display: flex;
-        justify-content: space-evenly;
+
     }
 
-    .map {}
+    footer {
+        font-size: 16px;
+    }
+
+    .footercontact {
+        display: flex;
+        text-align: right;
+        width: 100%;
+    }
+
+    .map {
+        flex: 50%;
+        margin: 50px auto;
+    }
+
+    footer UL {
+
+        flex: 50%;
+        font-size: 16px;
+        margin-right: 50px;
+
+    }
 }

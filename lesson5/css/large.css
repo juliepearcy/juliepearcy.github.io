@@ -1,31 +1,4 @@
 @media only screen and (min-width: 60em) {
-    .logo {
-        width: 100px;
-    }
-
-    .header {
-        font-size: 1.2rem;
-    }
-
-    .navigation {
-        display: flex;
-        padding: 0;
-    }
-
-
-    .navigation li {
-        display: block;
-        flex: 1 1 100%;
-    }
-
-    .navigation li:first-child {
-        display: none;
-    }
-
-    .ham {
-        display: none;
-        padding-left: 0;
-    }
 
     body {
         font-size: 14px;
@@ -39,44 +12,16 @@
     h2 {
 
         font-size: 24px;
-
-        h3 {
-            font-size: 20px;
-        }
-
-
-        .summary {
-            position: absolute;
-            background: radial-gradient(204, 63, 12, .3);
-            border: 1px solid #19231a;
-            top: 50px;
-            left: 50px;
-            padding: .5rem;
-            box-shadow: 0 0 30px grey;
-        }
-
-        .fivedaytitle {
-            margin-left: 15px;
-
-        }
-
-        .fivedayicons {
-            padding: 1px;
-        }
-
-        .five-day-summary {}
-
-        max-width: 100%;
-        background-color: rgba(204, 63, 12, .80);
-        border: 3px solid #19231a;
-        padding: 1em 0;
     }
 
-    .five-day-summary figure {
+    h3 {
+        font-size: 20px;
+    }
+
+    .map {
         display: flex;
-        justify-content: space-evenly;
-
     }
 
-    .map {}
+
+
 }

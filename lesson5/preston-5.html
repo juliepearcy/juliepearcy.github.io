@@ -17,6 +17,7 @@
 
 
 <body>
+    <div class="banner">Pancakes</div>
     <header>
 
         <img src="images/newlogotransparent88x140.png" class="logo" alt="Southeast Idaho Radar Logo">
@@ -35,7 +36,7 @@
 
 
 
-        <ul class="navigation responsive">
+        <ul class="navigation">
             <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="#">Home</a></li>
             <li><a href="#">Preston</a></li>
@@ -50,27 +51,52 @@
     <main>
         <h2>Preston, Idaho</h2>
         <div class="hero-pic-area">
-            <div class="heropic" src="https://via.placeholder.com/960x300/000000.jpg" alt="hero image placeholder">
-            </div>
-
+            <div class="heropic">Placeholder</div>
             <section class="summary">
-                <h4>Weather Summary</h4>
+                <h3>Weather Summary</h3>
                 <p>Label: Value</p>
                 <p>Label: Value</p>
                 <p>Label: Value</p>
             </section>
         </div>
         <div>
-            <h3 class="fivedaytitle">5-Day Forecast</h3>
 
-            <section class="five-day-summary">
 
-                <figure><img class="fivedayicons" src="https://unsplash.it/50/50" alt="Day 1">
-                    <img class="fivedayicons" src="https://unsplash.it/50/50" alt="Day 2">
-                    <img class="fivedayicons" src="https://unsplash.it/50/50" alt="Day 3">
-                    <img class="fivedayicons" src="https://unsplash.it/50/50" alt="Day 4">
-                    <img class="fivedayicons" src="https://unsplash.it/50/50" alt="Day 5">
-                </figure>
+            <section>
+                <h3>5-Day Forecast</h3>
+                <div class="five-day-summary">
+
+
+                    <div class="fivedayicons">
+
+                        <div class="fivedayicons">
+                            <img src="https://unsplash.it/50/50" alt="Day 1">
+                            <div class="temp">33&#176</div>
+
+                        <div class="fivedayicons">
+                            <img src="https://unsplash.it/50/50" alt="Day 2">
+                            <div class="temp">36&#176</div>
+                        </div>
+
+                        <div class="fivedayicons">
+                            <img src="https://unsplash.it/50/50" alt="Day 3">
+                            <div class="temp">33&#176</div>
+                        </div>
+
+                        <div class="fivedayicons">
+                            <img src="https://unsplash.it/50/50" alt="Day 4">
+                            <div class="temp">42&#176</div>
+                        </div>
+
+                        <div class="fivedayicons">
+                            <img src="https://unsplash.it/50/50" alt="Day 5">
+                            <div class="temp">31&#176</div>
+                        </div>
+
+
+
+
+
             </section>
             <article class="main-article">
                 <h3>Article Title</h3>
@@ -100,9 +126,11 @@
     <footer>
 
         <section class="footercontact">
-            <figure><img class="map" src="https://via.placeholder.com/150x150/000000.jpg" alt="Map Placeholder">
-            </figure>
+            <div class="map"> <img src="https://via.placeholder.com/150x150/000000.jpg" alt="Map Placeholder">
+            </div>
+             
             <ul>
+                <h3>Contact Us</h3>
                 <li>info@southeasteridahoradar.com</li>
                 <li>208.555.1212</li>
                 <li>555 Main Ave. Preston, ID 83263</li>
@@ -117,6 +145,7 @@
     </footer>
 
     <script src="js/currentdate.js"></script>
+    <script src="js/banner.js"></script>
 
 </body>
 
