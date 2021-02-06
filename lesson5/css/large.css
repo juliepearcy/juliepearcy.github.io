@@ -17,16 +17,14 @@
     h3 {
         font-size: 20px;
     }
-    
+
     ul:before {
-        content:attr(aria-label);
+        content: attr(aria-label);
         font-size: 18px;
-     
+
     }
 
-    .map {
-         
-    }
+    .map {}
 
 
 

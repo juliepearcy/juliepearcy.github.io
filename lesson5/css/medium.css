@@ -43,7 +43,11 @@
 
     .hero-pic-area {
         position: relative;
+
+
     }
+
+    .heropic {}
 
     .summary {
         display: block;
@@ -53,7 +57,7 @@
         text-align: left;
         padding: .5rem;
         background-image: radial-gradient(#ddb689, #cc3f0c);
-
+        opacity: 0.8;
         border: 1px solid #19231a;
         box-shadow: 0 0 30px grey;
 
@@ -119,7 +123,7 @@
     }
 
     .social {
-        display: content;
+         
         margin-right: .8rem;
     }
 
