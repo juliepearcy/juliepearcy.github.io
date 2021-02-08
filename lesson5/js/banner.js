@@ -20,7 +20,7 @@ if (n === 'Friday') {
 
 window.onload = function fridayBanner() {
     let d = new Date();
-    const ban = document.querySelector('banner');
+    const ban = document.querySelector('#banner');
   
     if (d.getDay() == 5) {
       ban.style.display = 'block';
@@ -28,3 +28,4 @@ window.onload = function fridayBanner() {
       ban.style.display = 'none';
     };
 };
+
