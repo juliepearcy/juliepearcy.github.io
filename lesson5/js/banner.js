@@ -18,6 +18,16 @@ if (n === 'Friday') {
 }*/
 
 
+
+/*
+if(date.getDay() == 5) {
+    document.querySelector("#banner").style.display = "block";
+
+}*/
+
+
+
+
 window.onload = function fridayBanner() {
     let d = new Date();
     const ban = document.querySelector('#banner');
