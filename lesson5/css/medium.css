@@ -96,14 +96,14 @@
     }
 
     footer {
-        display: flex;
+       
         font-size: 16px;
     }
 
     .footercontact {
-
+        display: flex;
         justify-content: space-evenly;
-        align-items: baseline;
+        align-items: center;
         text-align: right;
         width: 100%;
 
