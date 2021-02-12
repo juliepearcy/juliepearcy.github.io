@@ -170,7 +170,8 @@ nav button {
 }
 .hero-sample-pic {
    
-    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .heropic {
