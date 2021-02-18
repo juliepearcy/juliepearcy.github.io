@@ -41,6 +41,12 @@
         font-size: 18px;
     }
 
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
     .hero-pic-area {
         position: relative;
 

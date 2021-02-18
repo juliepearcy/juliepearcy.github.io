@@ -86,7 +86,7 @@ nav ul {
 }
 
 nav li a {
-    
+
     font-size: 0.95rem;
 }
 
@@ -138,15 +138,18 @@ h3 {
 
 .gallery {
     display: grid;
-    grid-template-columns: auto;
- 
-    gap: 20px;
-  }
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 0 auto;
+}
 
-.gallery-caption {
-     
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
     text-align: center;
-  }
+}
 
 .placeholder {
     padding: 1rem;
@@ -180,12 +183,13 @@ nav button {
     width: 100%;
 
 }
+
 .hero-sample-pic {
-   
+
     width: 100%;
     height: auto;
     margin: 10px auto;
-   
+
 }
 
 .heropic {
@@ -217,7 +221,7 @@ nav button {
     border: 3px solid #19231a;
     padding: 1em 0;
     text-align: center;
-   
+
 }
 
 
@@ -225,7 +229,7 @@ nav button {
     flex: 50%;
     margin: 5px;
     padding: 15px;
-   
+
 }
 
 .temp {
@@ -256,7 +260,7 @@ footer {
 
 .footercontact {
     display: flex;
-align-items: center;
+    align-items: center;
     margin: 0;
     padding: 0;
 
