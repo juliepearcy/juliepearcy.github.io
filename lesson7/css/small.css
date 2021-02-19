@@ -136,11 +136,26 @@ h3 {
     padding-left: 0px;
 }
 
+.title {
+    margin-left: 15px;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
+    max-width: 960px;
     gap: 10px;
-    margin: 0 auto;
+  
+
+}
+
+
+figure {
+    padding: 0;
+}
+
+.hovering:hover {
+    box-shadow: 0 0 30px #333;
 }
 
 figcaption {
@@ -178,14 +193,10 @@ nav button {
 }
 
 .hero-pic-area {
-
-
-    width: 100%;
-
+  width: 100%;
 }
 
 .hero-sample-pic {
-
     width: 100%;
     height: auto;
     margin: 10px auto;
