@@ -144,12 +144,21 @@ h3 {
     width: 100%;
 }
 
+figure img[data-src] {
+    filter: blur(1em);
+}
+
+figure img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
+
+
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
     max-width: 960px;
     gap: 10px;
-  
 
 }
 
@@ -158,9 +167,6 @@ figure {
     padding: 0;
 }
 
-.hovering:hover {
-    box-shadow: 0 0 30px #333;
-}
 
 figcaption {
     background-color: black;
@@ -197,7 +203,7 @@ nav button {
 }
 
 .hero-pic-area img {
-  width: 100%;
+    width: 100%;
 }
 
 .hero-sample-pic {
@@ -228,6 +234,11 @@ nav button {
 
 }
 
+/*.five-day-section {
+    background-color: #d8cbc7;
+
+}
+
 
 .five-day-summary {
     display: flex;
@@ -245,6 +256,11 @@ nav button {
     margin: 5px;
     padding: 15px;
 
+}
+*/
+
+.fiveday {
+    display: none;
 }
 
 .temp {

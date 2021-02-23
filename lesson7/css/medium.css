@@ -53,19 +53,12 @@
 
     }
 
-    .heropic {}
+
 
     .summary {
         display: block;
         position: absolute;
-        top: 1.5rem;
-        left: 1.4rem;
-        text-align: left;
-        padding: .5rem;
-        background-image: radial-gradient(#ddb689, #cc3f0c);
         opacity: 0.8;
-        border: 1px solid #19231a;
-        box-shadow: 0 0 30px grey;
 
     }
 
@@ -74,25 +67,53 @@
         padding-left: 0;
     }
 
-    .five-day-summary {
+    /* .five-day-summary {
 
         max-width: 100%;
         background-color: #cc3f03;
         border: 3px solid #19231a;
         padding: 1em 0;
-    }
+    }*/
 
 
     .fivedaytitle {
         margin-left: 15px;
-        font-size: 13px;
+
     }
 
-    .fivedayicons {
-        display: flex;
-        justify-content: space-around;
-        padding: 1px;
-        margin-left: 20px;
+
+    .fiveday {
+        display: block;
+        margin: 0;
+    }
+
+    .fiveday table {
+        text-align: center;
+        border: 1px solid #19231a;
+    }
+
+    table th {
+        background-color: #cc3f03;
+
+    }
+
+    table img {
+        width: 50%;
+    }
+
+    table,
+    th {
+        border: 1px solid #19231a;
+        border-collapse: collapse;
+    }
+
+    table td {
+        border-right: 1px solid #19231a;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .temp {
@@ -102,21 +123,18 @@
     }
 
     footer {
-       
+
         font-size: 16px;
     }
 
     .footercontact {
-        display: flex;
         justify-content: space-evenly;
-        align-items: center;
         text-align: right;
         width: 100%;
 
     }
 
     ul:before {
-        content: attr(aria-label);
         font-size: 16px;
 
     }
@@ -128,19 +146,12 @@
         margin-left: .8rem;
     }
 
-    .social {
-         
-        margin-right: .8rem;
-    }
-
 
     footer UL {
         display: block;
-
-
         font-size: 16px;
     }
 
-    .bottom-footer {}
+
 
 }

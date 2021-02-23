@@ -56,12 +56,13 @@
         <h2>Preston, Idaho</h2>
         <div class="hero-pic-area">
             
-            <picture class="hero-sample-pic">
-                <source media="(max-width: 375px)" srcset="images/preston-sample-375.jpg">
-                <source media="(max-width: 768px)" srcset="images/preston-sample-768.jpg">
-                <img src="images/preston-sample-960.jpg" alt="preston idaho">
+        
 
-            </picture>
+            <picture>
+                <source srcset="images/preston-hero-pic-375-wide.jpg" media="(max-width:375px)"/>
+                <source srcset="images/preston-hero-pic-768-wide.jpg" media="(max-width:768px)"/>
+                <img class="hero-sample-pic" src="images/preston-hero-pic-960-wide.jpg" alt="picture of downtown preston idaho"/>
+              </picture>
 
             <div class="summary">
                 <h3>Weather Summary</h3>
@@ -77,37 +78,36 @@
 
 
         <section class="five-day-section">
-            <h3 class="title">5-Day Forecast</h3>
+            <h3 class="fivedaytitle">5-Day Forecast</h3>
             <div class="five-day-summary">
 
 
-                <div class="fivedayicons">
+                <div class="fiveday">
 
-                    <div class="fivedayicons">
-                        <img src="https://unsplash.it/50/50" alt="Day 1">
-                        <div class="temp">33&#176;</div>
-                    </div>
-
-                    <div class="fivedayicons">
-                        <img src="https://unsplash.it/50/50" alt="Day 2">
-                        <div class="temp">36&#176;</div>
-                    </div>
-
-                    <div class="fivedayicons">
-                        <img src="https://unsplash.it/50/50" alt="Day 3">
-                        <div class="temp">33&#176;</div>
-                    </div>
-
-                    <div class="fivedayicons">
-                        <img src="https://unsplash.it/50/50" alt="Day 4">
-                        <div class="temp">42&#176;</div>
-                    </div>
-
-                    <div class="fivedayicons">
-                        <img src="https://unsplash.it/50/50" alt="Day 5">
-                        <div class="temp">31&#176;</div>
-                    </div>
-
+                              
+                    <table>
+                      <tr>
+                        <th>Today</th>
+                        <th>Tomorrow</th>
+                        <th>Sunday</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                      </tr>
+                      <tr>
+                        <td><img src="images/fiveday/sunny.png" alt="sun icon"></td>
+                        <td><img src="images/fiveday/sunny.png" alt="sun icon"></td>
+                        <td><img src="images/fiveday/partly cloudy.png" alt="sun covered by cloud icon"></td>
+                        <td><img src="images/fiveday/snow.png" alt="snow icon"></td>
+                        <td><img src="images/fiveday/rain.png" alt="rain icon"></td>
+                      </tr>
+                      <tr>
+                        <td> 42 &#8457;</td>
+                        <td> 45 &#8457;</td>
+                        <td> 52 &#8457;</td>
+                        <td> 32 &#8457;</td>
+                        <td> 33 &#8457;</td>
+                      </tr>
+                    </table>
 
 
 
@@ -142,8 +142,7 @@
     <footer>
 
         <div class="footercontact">
-            <img class="map" src="https://via.placeholder.com/150x150/000000.jpg" alt="Map Placeholder">
-
+            <img class="map" src="https://via.placeholder.com/150x150/000000.jpg" data-src="images/preston-map-150x150.png" alt="preston map">
 
             <ul aria-label="Contact Us">
                 <li>info@southeasteridahoradar.com</li>
@@ -172,6 +171,7 @@
     <script src="js/currentdate.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/imagehandling.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
