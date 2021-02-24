@@ -1,0 +1,157 @@
+@media only screen and (min-width: 38.5em) {
+    .logo {
+        width: 100px;
+    }
+
+    .navigation {
+        display: flex;
+        padding: 0;
+
+    }
+
+    .header {
+        font-size: 1.2rem;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    body {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 28px;
+
+    }
+
+    h2 {
+
+        font-size: 22px;
+
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .hero-pic-area {
+        position: relative;
+
+
+    }
+
+
+
+    .summary {
+        display: block;
+        position: absolute;
+        opacity: 0.8;
+
+    }
+
+    .ham {
+        display: none;
+        padding-left: 0;
+    }
+
+    /* .five-day-summary {
+
+        max-width: 100%;
+        background-color: #cc3f03;
+        border: 3px solid #19231a;
+        padding: 1em 0;
+    }*/
+
+
+    .fivedaytitle {
+        margin-left: 15px;
+
+    }
+
+
+    .fiveday {
+        display: block;
+        margin: 0;
+    }
+
+    .fiveday table {
+        text-align: center;
+        border: 1px solid #19231a;
+    }
+
+    table th {
+        background-color: #cc3f03;
+
+    }
+
+    table img {
+        width: 50%;
+    }
+
+    table,
+    th {
+        border: 1px solid #19231a;
+        border-collapse: collapse;
+    }
+
+    table td {
+        border-right: 1px solid #19231a;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .temp {
+        display: flex;
+
+
+    }
+
+    footer {
+
+        font-size: 16px;
+    }
+
+    .footercontact {
+        justify-content: space-evenly;
+        text-align: right;
+        width: 100%;
+
+    }
+
+    ul:before {
+        font-size: 16px;
+
+    }
+
+
+    .map {
+        display: flex;
+        padding: 15px;
+        margin-left: .8rem;
+    }
+
+
+    footer UL {
+        display: block;
+        font-size: 16px;
+    }
+
+
+
+}

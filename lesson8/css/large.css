@@ -1,0 +1,40 @@
+@media only screen and (min-width: 60em) {
+
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 32px;
+
+    }
+
+    h2 {
+
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+    .hovering:hover {
+        box-shadow: 0 0 30px #333;
+    }
+    
+
+    ul:before {
+        content: attr(aria-label);
+        font-size: 18px;
+
+    }
+
+
+
+
+}
