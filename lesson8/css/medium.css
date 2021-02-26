@@ -24,6 +24,7 @@
 
     body {
         font-size: 13px;
+       
     }
 
     h1 {
@@ -120,6 +121,21 @@
         display: flex;
 
 
+    }
+
+    /*form*/
+
+    form {
+        margin: 0 auto;
+        max-width: 25rem;
+    }
+
+    .storm img {
+      display:flex;
+    }
+
+    form label.sbs {
+        padding: .2rem 0;
     }
 
     footer {

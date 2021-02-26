@@ -11,6 +11,7 @@ body {
     margin: 0 auto;
     padding: 0;
     border-color: #19231a;
+    background-color: white;
 
 }
 
@@ -114,7 +115,7 @@ nav li a {
     text-align: center;
     text-decoration: none;
 }
- 
+
 .responsive li {
     display: block;
 }
@@ -214,7 +215,7 @@ figcaption {
     border: 3px solid #cc3f0c;
 }
 
- 
+
 
 /*hero pic and weather summary*/
 
@@ -285,6 +286,7 @@ figcaption {
     color: white;
 
 }
+
 /*article*/
 
 .main-article {
@@ -300,6 +302,7 @@ figcaption {
     padding: 1em;
 
 }
+
 /*footer*/
 footer {
     font-size: 14px;
@@ -352,63 +355,69 @@ footer ul {
 
 /*storm center form*/
 .storm {
+
     text-align: center;
     font-size: 26px;
-  }
-  
-  form {
+}
+
+.storm img {
+    display: none;
+}
+
+form {
     margin: 0 auto;
     max-width: 25rem;
-  }
-  form fieldset {
+}
+
+form fieldset {
     margin: 0.5rem 0;
-    border: 1px solid #445ba9;
+    border: 1px solid #19231a;
     border-radius: 10px;
     padding: 1rem 2%;
     background-color: rgba(0, 0, 0, 0.1);
-  }
-  
-  form legend {
+}
+
+form legend {
     color: #19231a;
     margin: 0 1rem;
     padding: 0 0.5rem;
-  }
-  
-  form label.top,
-  form div,
-  form label.stormrating {
+}
+
+form label.top,
+form div,
+form label.stormrating {
     display: block;
     padding-top: 1rem;
     color: #cc3f0c;
     font-size: 0.8rem;
-  }
-  
-  form label.top input,
-  form label.top select {
+}
+
+form label.top input,
+form label.top select {
     display: block;
     font-size: 1rem;
     border: solid 1px #999;
     border-radius: 4px;
     padding: 0.75rem;
-    color: #555;
+    color: #19231a;
     width: 100%;
     max-width: 20rem;
     background-color: rgb(0, 0, 0, 0.1);
     -webkit-appearance: none;
-  }
-  
-  form label.stormrating input {
+}
+
+form label.stormrating input {
     display: block;
-  }
-  
-  form label.sbs {
+}
+
+form label.sbs {
     display: block;
     padding: 0 0.75rem;
-    color: #555;
-  }
-  
-  form input.submitBtn {
-      display: block;
+    color: #19231a;
+}
+
+form input.submitBtn {
+    display: block;
     border: none;
     background-color: #cc3f0c;
     color: white;
@@ -416,13 +425,24 @@ footer ul {
     padding: 0.75rem .75rem;
     margin: 0 auto;
     width: 200px;
-     
-  }
-  
-  form label.top input:required {
+    max-width: 20rem;
+
+}
+
+form label.top input:required {
     border-left: #cc3f0c solid 6px;
-  }
-  
-  form label.top input:required:valid {
-    border-left:#19231a solid 6px;
-  }
+}
+
+form label.top input:required:valid {
+    border-left: #19231a solid 6px;
+}
+
+.stormrating {
+    display: flex;
+    align-items: center;
+}
+
+#ratingvalue {
+    margin: 0 15px;
+    color: #cc3f0c;
+}

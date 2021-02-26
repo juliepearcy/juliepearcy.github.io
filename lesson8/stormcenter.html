@@ -16,6 +16,7 @@
 </head>
 
 <body>
+
     <div id="banner">
         <p>Saturday - Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
     </div>
@@ -43,100 +44,102 @@
     </nav>
 
     <main>
+       <!-----<img src="images/gallery-placeholder-275x375.jpg" data-src="images/tornado-form-pic.jpg"
+                alt="tornado over field">--->
+
         <div class="storm"><br>
             <h3>Community Storm Sentinel</h3>
-            </div>
-    
-          
-            <form method="get" action="thanks.html">
+             
+        </div>
+
+
+        <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
-                <label class="top"> Full Name* <input type="text" name="fullname" placeholder="First and Last Name" required></label>
-                <label class="top"> Email* <input type="email" name="email" placeholder="yourname@domain.com" required></label>
+                <label class="top"> Full Name* <input type="text" name="fullname" pattern="[\sA-Za-z] {5,}"
+                        placeholder="First and Last Name" required></label>
+                <label class="top"> Email* <input type="email" name="email" placeholder="yourname@domain.com"
+                        required></label>
                 <label class="top"> Phone* <input type="tel" name="phone" placeholder="555-555-1212" required></label>
-                <label class="top">Zip Code* <input type="text" name="zip" pattern="[0-9]{5}" placeholder="54321" required></label>
+                <label class="top">Zip Code* <input type="text" name="zip" pattern="[0-9]{5}" placeholder="54321"
+                        required></label>
             </fieldset>
             <fieldset>
                 <legend>Storm Information</legend>
-                <label class="top">When did the storm occur?* <input type="date" name="stormdate" required> </label>
-                <label class="top">Storm Type <input list="typeofstorm" name="stormtype">
-                <datalist id="typeofstorm">
-                  
-                    <option value="" disabled="" selected="">Select Storm Type</option>
-                    <option value="Flash Flood"></option>
-                    <option value="Hail"></option>
-                    <option value="Hurricane"></option>
-                    <option value="Thunderstorm"></option>
-                    <option value="Tornado"></option>
-                </datalist>
+                <label class="top">When did the storm occur?* <input type="date" name="stormdate" required></label>
+                <label class="top">Choose a storm type from this list: <input list="typeofstorm" name="stormtype">
+                    <datalist id="typeofstorm">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
                 </label>
-                <label class="stormrating">
-                Storm Severity Rating: <span id="ratingvalue">5</span>
-                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
-                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                <datalist id="tickmarks">
-                    <option value="0">
-                    </option>
-                    <option value="1">
-                    </option>
-                    <option value="2">
-                    </option>
-                    <option value="3">
-                    </option>
-                    <option value="4">
-                    </option>
-                    <option value="5">
-                    </option>
-                    <option value="6">
-                    </option>
-                    <option value="7">
-                    </option>
-                    <option value="8">
-                    </option>
-                    <option value="9">
-                    </option>
-                    <option value="10">
-                    </option>
+                <label class="stormrating" for="rating">Storm Severity Rating: &nbsp;&nbsp;&nbsp;
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                </label>
 
+                <option value="0">
+                </option>
+                <option value="1">
+                </option>
+                <option value="2">
+                </option>
+                <option value="3">
+                </option>
+                <option value="4">
+                </option>
+                <option value="5">
+                </option>
+                <option value="6">
+                </option>
+                <option value="7">
+                </option>
+                <option value="8">
+                </option>
+                <option value="9">
+                </option>
+                <option value="10">
+                </option>
 
                 </datalist>
                 </label>
                 <label class="top">Storm Region Affected
-                <select name="region">
-                    <option value="" disabled="" selected="">Select Region</option>
-                    <option value="fish-haven">Fish Haven</option>
-                    <option value="preston">Preston</option>
-                    <option value="soda-springs">Soda Springs</option>
-                  
-                </select>
+                    <select name="region">
+                        <option value="">Select Region &#9662;</option>
+                        <option value="fish-haven">Fish Haven</option>
+                        <option value="preston">Preston</option>
+                        <option value="soda-springs">Soda Springs</option>
+
+                    </select>
                 </label>
                 <div>
-                Are you in danger?
-                <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
-                <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
-                <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
-                
+                    Are you in danger?
+                    <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                    <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                    <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+
                 </div>
-                <label class="top">Comments
-                <textarea name="comment" rows="5" placeholder="Please add any further information here"></textarea></label>
+                <label class="top">
+                    Comments
+                    <textarea name="comment" rows="5"
+                        placeholder="Please add any further information here"></textarea></label>
             </fieldset>
-            <input type="submit" value="Storm Sentinel" class="submitBtn">
-            </form>
-           
-            
+            <input type="submit" value="Send Storm Sentinel Report" class="submitBtn">
+        </form>
 
-               
-                   
-
-               
     </main>
     <footer>
 
         <div class="footercontact">
-            <img class="map" src="https://via.placeholder.com/150x150/000000.jpg" data-src="images/preston-map-150x150.png" alt="preston map">
+            <img class="map" src="https://via.placeholder.com/150x150/000000.jpg"
+                data-src="images/preston-map-150x150.png" alt="preston map">
 
             <ul aria-label="Contact Us">
-                <li>info@southeasteridahoradar.com</li>
+                <li>info@southeasternidahoradar.com</li>
                 <li>208.555.1212</li>
                 <li>555 Main Ave. Preston, ID 83263</li>
             </ul>
@@ -158,7 +161,7 @@
         </p>
     </footer>
 
-
+    <script src="rating.js"></script>
     <script src="js/currentdate.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/imagehandling.js"></script>
@@ -171,4 +174,5 @@
         });
     </script>
 </body>
+
 </html>
