@@ -44,8 +44,7 @@
     </nav>
 
     <main>
-        <!-----<img src="images/gallery-placeholder-275x375.jpg" data-src="images/tornado-form-pic.jpg"
-                alt="tornado over field">--->
+      
 
         <div class="storm"><br>
             <h3>Community Storm Sentinel</h3>
@@ -56,7 +55,7 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
-                <label class="top"> Full Name* <input type="text" name="fullname" pattern="[\sA-Za-z] {5,}"
+                <label class="top"> Full Name* <input type="text" name="fullname" pattern="[A-Za-z\s]{5,}"
                         placeholder="First and Last Name" required></label>
                 <label class="top"> Email* <input type="email" name="email" placeholder="yourname@domain.com"
                         required></label>
@@ -111,7 +110,7 @@
                     <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
 
                 </div>
-                <label class="top">
+                <label class="top">Comments
                     <textarea name="comment" rows="5" cols="35"
                         placeholder="Please include any additional pertinent information here"></textarea></label>
             </fieldset>
