@@ -373,7 +373,7 @@ form fieldset {
     margin: 0.5rem 0;
     border: 1px solid #19231a;
     border-radius: 10px;
-    padding: 1rem 2%;
+    padding: 1rem 9%;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -424,7 +424,7 @@ form input.submitBtn {
     border-radius: 1rem;
     padding: 0.75rem 1rem;
     margin: 0 auto;
-    width: 450px;
+    width: 300px;
     max-width: 25rem;
 
 }
@@ -445,4 +445,12 @@ form label.top input:required:valid {
 #ratingvalue {
     margin: 0 15px;
     color: #cc3f0c;
+}
+
+#thank-you {
+    text-align: center;
+    color:#cc3f0c;
+    background-color: #d8cbc7;
+    border: #19231a solid 1px;
+    width: 100%;
 }

@@ -44,12 +44,12 @@
     </nav>
 
     <main>
-       <!-----<img src="images/gallery-placeholder-275x375.jpg" data-src="images/tornado-form-pic.jpg"
+        <!-----<img src="images/gallery-placeholder-275x375.jpg" data-src="images/tornado-form-pic.jpg"
                 alt="tornado over field">--->
 
         <div class="storm"><br>
             <h3>Community Storm Sentinel</h3>
-             
+
         </div>
 
 
@@ -76,36 +76,24 @@
                         <option value="Tornado">
                     </datalist>
                 </label>
-                <label class="stormrating" for="rating">Storm Severity Rating: &nbsp;&nbsp;&nbsp;
+                <label class="stormrating">
+                    Storm Severity - Rate from 1-10: <span id="ratingvalue">Rating Level</span>
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">5</span>
-                </label>
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                    </datalist>
 
-                <option value="0">
-                </option>
-                <option value="1">
-                </option>
-                <option value="2">
-                </option>
-                <option value="3">
-                </option>
-                <option value="4">
-                </option>
-                <option value="5">
-                </option>
-                <option value="6">
-                </option>
-                <option value="7">
-                </option>
-                <option value="8">
-                </option>
-                <option value="9">
-                </option>
-                <option value="10">
-                </option>
-
-                </datalist>
                 </label>
                 <label class="top">Storm Region Affected
                     <select name="region">
@@ -124,9 +112,8 @@
 
                 </div>
                 <label class="top">
-                    Comments
-                    <textarea name="comment" rows="5"
-                        placeholder="Please add any further information here"></textarea></label>
+                    <textarea name="comment" rows="5" cols="35"
+                        placeholder="Please include any additional pertinent information here"></textarea></label>
             </fieldset>
             <input type="submit" value="Send Storm Sentinel Report" class="submitBtn">
         </form>
